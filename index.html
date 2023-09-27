@@ -79,7 +79,19 @@
       display: none;
     }
 
+    .banner-container {
+      width: 100%;
+      height: 100vh;
+      background-image: url('./screen.png');
+      background-size: cover;
+
+    }
+
     @media (min-height: 425px) {
+      .banner-container {
+        background-image: url('./mobile.png');
+        background-size: cover;
+      }
 
       /** Youtube logo by https://codepen.io/alvaromontoro */
       #youtube {
@@ -150,13 +162,7 @@
       }
     }
 
-    .banner-container {
-      width: 100%;
-      height: 100vh;
-      background-image: url('./screen.png');
-      background-size: cover;
 
-    }
 
     .hidden {
       display: none;
